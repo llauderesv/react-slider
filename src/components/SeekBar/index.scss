@@ -1,0 +1,12 @@
+.react-slider {
+  .seek-bar {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #5a7cff;
+    box-shadow: 1px 2px 2px 0px #86868694;
+  }
+}

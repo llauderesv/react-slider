@@ -1,0 +1,17 @@
+.react-slider {
+  .progress-bar {
+    position: relative;
+    top: 10%;
+    width: 250px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: #ccc;
+
+    .progress-bar-amount {
+      background-color: #5a7cff;
+      width: 0;
+      height: 100%;
+      border-radius: 20px;
+    }
+  }
+}
