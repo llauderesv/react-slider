@@ -33,7 +33,7 @@ class Slider extends Component {
   }
 
   handleOnDragEnd() {
-    this.setState({ startDragging: false, clientX: 0 });
+    this.setState({ startDragging: false });
   }
 
   handleStartDragging(event) {

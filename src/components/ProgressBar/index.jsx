@@ -2,13 +2,11 @@ import React from 'react';
 
 import './index.scss';
 
-const ProgressBar = React.forwardRef((props, refs) => {
+export default React.forwardRef((props, refs) => {
   return (
     <div className="progress-bar" ref={refs}>
       <div
-        style={{
-          width: `${props.fillValue}%`,
-        }}
+        style={{ width: `${props.fillValue}%` }}
         className="progress-bar-amount"
       >
         {props.children}
@@ -16,5 +14,3 @@ const ProgressBar = React.forwardRef((props, refs) => {
     </div>
   );
 });
-
-export default ProgressBar;
